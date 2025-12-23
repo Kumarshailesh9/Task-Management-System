@@ -132,9 +132,11 @@ PORT=5000
 SUPABASE_URL=your_supabase_url
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 SUPABASE_ANON_KEY=your_anon_key
-
+```
+---
 ## Validation Rules
 
 - Task title cannot be empty
 - Only authenticated users can create, update, or delete tasks
 - Users cannot access tasks created by other users
+
